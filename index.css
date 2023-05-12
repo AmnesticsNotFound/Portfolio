@@ -1,0 +1,170 @@
+.header {
+    
+    height:fit-content;
+    border-bottom: 1vh solid rgb(0, 0, 0);
+    border-top:1vh solid rgb(0, 0, 0);
+    border-right: 2vh solid rgb(233, 233, 233);
+    border-left: 2vh solid rgb(233, 233, 233);
+    background-color:rgb(233, 233, 233);
+    display:flex;
+    margin-left:15vw;
+    margin-right:15vw;
+    justify-content:center;
+    max-height:50%;
+    
+    
+    
+}
+body {
+    margin:0px;
+    font-family: Playfair Display;
+    background-color:rgb(233, 233, 233);
+    border-style: solid;
+    border-color:rgb(0, 0, 0);
+    height:99.5vh;
+    width:100;
+    
+}
+.titleImg {
+    margin-left:1vw;
+    margin-right:2vw;
+    display:flex;
+    align-items: center;
+    gap:2vw;
+}
+.titleImg > img{
+height:25vh;
+}
+.imgtext > h1 > div{
+    display:inline;
+    color:rgb(99, 42, 42);
+    font-size:50px;
+}
+.imgtext > h1{
+    font-size: 40px;
+}
+.imgtext > h2{
+    font-size: 25px;
+    
+    
+}
+.about {
+
+    width:20vw;
+    height:26vh;
+    margin:0px;
+    /*position:absolute;*/
+    background-color:white;
+    padding-left: 1vw;
+    padding-right: 1vw;
+	border-right: .5vw solid rgb(99, 42, 42);
+    border-left: .5vw solid rgb(99, 42, 42);
+    border-bottom: .5vw solid rgb(255, 255, 255);
+    font-size:15px;
+    /*transform: scaley(-1);*/
+    
+}
+
+
+.git {
+    height:30px;
+    width:30px;
+}
+
+.gmail {
+    height:30px;
+    width:30px;
+}
+.iconGroup > h2 {
+    font-size:30px;
+    margin:0px;
+}
+.iconGroup > h3 {
+    font-size:25px;
+}
+
+.iconGroup {
+padding-top:0px;
+
+}
+
+
+.projectTitle {
+    text-align:center;
+    font-size:50px;
+    color:rgb(99, 42, 42);
+   
+    margin:0 15vw 0 15vw;
+    
+    
+}
+hr {
+    width:20vw;
+}
+
+.projects {
+    display:flex;
+    justify-content: center;
+    
+}
+.p1 {
+    display:flex;
+    font-size:20px;
+    align-items: center;
+    flex-direction: column;
+    padding:0px;
+    
+   
+  
+    
+}
+.footer {
+    position:absolute;
+    bottom:0px;
+    margin:0px;
+    width:99%;
+    color:rgb(0, 0, 0);
+    
+    
+}
+
+.contactInfo {
+    margin:0px;
+    
+    
+    padding:0px;
+    background-color:rgb(219, 219, 219);
+}
+.p1 > a > img {
+transform:scale(1,1.2); 
+width:23vw;
+margin-top:1vh;
+
+transition-property:transform;
+transition-duration: 2s;
+transition-timing-function: ease-out;
+transition-delay: 0s;
+
+}
+
+.p1 > a > img:hover {
+    transform: scale(1.8,2.1);
+}
+
+@media (max-width:1000px) {
+    .header {
+        flex-direction: column;
+        align-items: center;
+    }
+    .about {
+        width:98%;
+        overflow-x: hidden;
+        
+    }
+    .p1 > a > img {
+        
+        height:100px;
+        width:200px;
+        margin-bottom:1vh;
+    }
+}
